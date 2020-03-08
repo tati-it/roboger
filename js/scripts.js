@@ -2,6 +2,8 @@
 var checkInput = function(myString){
   if (myString.includes("1")){
     myNewString="Beep!";
+  } else if (myString.includes("2")){
+    myNewString="Boop!";
   } else {
 
  

@@ -1,19 +1,29 @@
 //Business logic is here
 var checkInput = function(myString){
-  var myNumber = parseInt(myString);
-  var myNewString=[0];
-  for (var index = 1; index <= myNumber; index += 1){
-     
-      myNewString.push(index);
-  }
-  if (myNewString[1] === 1){
-    myNewString[1]="Beep!";
-  } 
-  if (myNewString[2] === 2){
-    myNewString[2]="Boop!";
-  } 
-  
-return myNewString;
+  if (myString.includes("1")){
+    myNewString="Beep!";
+  } else {
+
+ 
+
+    var myNumber = parseInt(myString);
+    var myNewString=[0];
+    for (var index = 1; index <= myNumber; index += 1){
+      
+        myNewString.push(index);
+    }
+
+    if (myNewString[1] === 1){
+      myNewString[1]="Beep!";
+    } 
+    if (myNewString[2] === 2){
+      myNewString[2]="Boop!";
+    } 
+    if (myNewString[3] === 3){
+      myNewString[3]="Won't you be my neighbor?";
+    } 
+  }  
+  return myNewString;
 }
 
 

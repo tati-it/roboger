@@ -1,11 +1,16 @@
 //Business logic is here
-var checkResult = function(myString){
+var checkInput = function(myString){
   var myNumber = parseInt(myString);
-  myNewString=[0];
+  var myNewString=[0];
   for (var index = 1; index <= myNumber; index += 1){
-    myNewString+=index;
+     
+      myNewString.push(index);
   }
-  return myNewString;
+  if (myNewString[1] === 1) {
+    myNewString[1]="Beep!";
+  } 
+
+return myNewString;
 }
 
 
@@ -17,7 +22,7 @@ $(document).ready(function() {
   $("form#neighborhood").submit(function(event) {
     event.preventDefault();
     var myString=$("input#number").val();
-    var result = checkResult(myString);
+    var result = checkInput(myString);
     $("#result").show(result);
     $("#result").text(result);
   });

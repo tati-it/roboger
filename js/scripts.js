@@ -6,10 +6,13 @@ var checkInput = function(myString){
      
       myNewString.push(index);
   }
-  if (myNewString[1] === 1) {
+  if (myNewString[1] === 1){
     myNewString[1]="Beep!";
   } 
-
+  if (myNewString[2] === 2){
+    myNewString[2]="Boop!";
+  } 
+  
 return myNewString;
 }
 

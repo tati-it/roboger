@@ -1,14 +1,12 @@
 //Business logic is here
 var checkInput = function(myString){
-  if (myString.includes("1")){
-    myNewString="Beep!";
+  if (myString.includes("3")){
+    myNewString="Won't you be my neighbor?";
   } else if (myString.includes("2")){
     myNewString="Boop!";
-  } else if (myString.includes("3")){
-    myNewString="Won't you be my neighbor?";
+  } else if (myString.includes("1")){
+    myNewString="Beep";
   } else {
-
- 
 
     var myNumber = parseInt(myString);
     var myNewString=[0];

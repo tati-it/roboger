@@ -40,6 +40,7 @@ _jQuery_
 
 | Behavor   |     Input Example    |  Output Example |
 |---------- |:---------------------:|----------------:|
+| The program returns a warning "PLEASE ENTER ANY NUMBER" if users didn't enter a number  |   no input   | PLEASE ENTER ANY NUMBER
 | The program returns a range of numbers from 0 to the users inputted number  |  4        | 0, 1, 2, 3, 4           |
 | The program returns a range of numbers from 0 to the users inputted number, but 1 is replaced with "Beep!" |  4        | 0, "Beep!", 2, 3, 4           |
 | The program returns a range of numbers from 0 to the users inputted number, but 1 is replaced with "Beep!"and 2 is replaced with "Boop!" |  4        | 0, "Beep!", "Boop!", 3, 4           |

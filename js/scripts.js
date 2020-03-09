@@ -1,20 +1,20 @@
 //Business logic is here
 var checkInput = function(myString){
-  if (myString.includes("3")){
+  if (myString === ""){
+    myNewString="PLEASE ENTER ANY NUMBER"; 
+    } else if (myString.includes("3")){
     myNewString="Won't you be my neighbor?";
-  } else if (myString.includes("2")){
+    } else if (myString.includes("2")){
     myNewString="Boop!";
   } else if (myString.includes("1")){
     myNewString="Beep!";
   } else if (myString === ""){
-    myNewString="WARNING: PLEASE ENTER ANY NUMBER";  
+    myNewString="PLEASE ENTER ANY NUMBER";  
   } else {
-
     var myNumber = parseInt(myString);
     var myNewString=[];
     for (var index = 0; index <= myNumber; index += 1){
-      
-        myNewString.push(index);
+      myNewString.push(index);
     }
 
     if (myNewString[1] === 1){

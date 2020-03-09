@@ -18,10 +18,10 @@ A user can enter a new number and see new results over and over again.
 
 ## Setup/Installation Requirements
 
-* _Clone this repository https://github.com/tati-it/bip.git_
+* _Clone this repository https://github.com/tati-it/roboger.git_
 * _Use a terminal of your choice to access the webpage and its files by inputting: "git clone (the above clone link)"_
 * _Open the folder and open the link in the web browser of your choice to view it._
-* _gh-pages link: http://tati-it.github.io/bip_
+* _gh-pages link: http://tati-it.github.io/roboger_
 
 
 ## Support and contact details

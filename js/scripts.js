@@ -5,12 +5,14 @@ var checkInput = function(myString){
   } else if (myString.includes("2")){
     myNewString="Boop!";
   } else if (myString.includes("1")){
-    myNewString="Beep";
+    myNewString="Beep!";
+  } else if (myString === ""){
+    myNewString="WARNING: PLEASE ENTER ANY NUMBER";  
   } else {
 
     var myNumber = parseInt(myString);
-    var myNewString=[0];
-    for (var index = 1; index <= myNumber; index += 1){
+    var myNewString=[];
+    for (var index = 0; index <= myNumber; index += 1){
       
         myNewString.push(index);
     }

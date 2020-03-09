@@ -1,3 +1,32 @@
 #result{
   display: none;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+body {
+  background-color: black;
+  color: #00ffbc;
+  font-size: 2em;
+}
+
+.btn {
+  margin-top: 50px;
+  padding-top: 20px;
+  background-color: #ff1754;
+  color: #fff;
+}
+.container {
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ff1754;
+  font-size: 100px;
+  margin: 50px ;
+  padding: 10px;
+  
 }
